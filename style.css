@@ -27,6 +27,10 @@
     color: rgba(255, 255, 255, 0.5);;
     margin-bottom: 28px;
 }
+.font-16--{
+    font-size: 1rem;
+    color: white;
+}
 .font-40{
     color: white;
     font-size: 2.5rem ;
@@ -276,9 +280,72 @@ nav ul li a{
     margin: 88px 20px 60px 20px;
 }
 .main-container{
-    display: grid;
-    grid-template-rows: 3, 1fr;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 18px;
+    max-width: 1060px;
+    text-align: center;
+    
 }
+.text-align-center{
+    text-align: center;
+}
+.image-cont{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-gap: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.image-6{
+    height: 272px;
+    width: 326px;
+    object-fit: cover;
+    border-radius:18px;
+    /* position: relative; */
+}
+.image-1{
+    height: 272px;
+    width: 326px;
+    object-fit: cover;
+    border-radius:18px;
+    /* position: relative;   */
+}
+.image-2{
+    height: 272px;
+    width: 326px;
+    object-fit: cover;
+    border-radius:18px;
+    /* position: relative;   */
+}
+.image-3{
+    height: 272px;
+    width: 326px;
+    object-fit: cover;
+    border-radius:18px;
+    /* position: relative; */
+}
+.image-4{
+    height: 272px;
+    width: 326px;
+    object-fit: cover;
+    border-radius:18px;
+    /* position: relative; */
+}
+.image-5{
+    height: 272px;
+    width: 326px;
+    object-fit: cover;
+    border-radius:18px;
+    /* position: relative; */
+}
+.para--{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
 
 @media screen and (max-width:576px) {
     .get-body-container {
