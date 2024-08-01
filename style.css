@@ -1,0 +1,427 @@
+/* overall website design */
+.inter-uniquifier-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+*{
+    margin: none;
+    padding: none;
+}
+/* shared style  */
+.background{
+    background-repeat: no-repeat;
+    background-color: #000000;
+    margin: 0px;
+}
+.font-36{
+    font-size: 2.25rem;
+    color: #E6533c;
+}
+.font-16{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);;
+    margin-bottom: 28px;
+}
+.font-40{
+    color: white;
+    font-size: 2.5rem ;
+    font-weight:900;
+}
+.font-48{
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: 900;
+    margin: 0px;
+}
+.font-14{
+    font-size:0.875rem ;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    margin: 0px;
+}
+.font-14-{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0px 0px 58px 0px;
+}
+.text-button{
+    text-align: left;
+}
+
+/* headr section design  */
+.background-1{
+    background: linear-gradient(180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+/* .background-2{
+    background: linear-gradient(00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-repeat: no-repeat;
+} */
+/* this is nav bar style */
+nav ul li{
+    color: honeydew;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;   
+    font-size:1.125rem ;
+}
+.nav{
+    display: flex;
+    gap: 45px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 46px;
+    padding: 12px;
+}
+#home{
+    background-color: #E6533c;
+    padding: 4px 20px;
+    border-radius: 46px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 190px 0 190px;
+    padding-top:57px;
+}
+
+
+/* get body in shape section */
+.head-width{
+    max-width: 520px;
+}
+.get-body-container{
+    margin: 32px 214px 0px 190px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    font-size: 4.875rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 28px;
+}
+.social-button{
+    display: flex;
+    gap: 14px;
+}
+.join-button{
+    font-size: 1.125rem;
+    color: white;
+    background-color: #E6533c;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 40px;
+}
+.join-buttonn{
+    font-size: 1.125rem;
+    color: white;
+    background-color: #E6533c;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 40px;
+}
+.download-button{
+    font-size:1.125rem ;
+    color: white;
+    background-color: #000000;
+    border: 1px solid white;
+    padding: 16px 40px;
+    border-radius: 40px;
+}
+
+
+/* image and button container  */
+.image-container{
+    position: relative;
+    /* width: 100%; */
+}
+.dot{
+    background-color: #E6533c;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: inline-block;
+}
+.card1{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -80px;
+}
+.button-1{
+    /* position: absolute;   */
+    
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;    
+
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    /* border: 1px solid red;       */
+    max-width: 206px;    
+    max-height: 76px;
+    padding: 20px 23px 20px 23px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.video-tutorial{
+    font-size: 1rem;
+    color: rgba(239, 237, 232, 0.65);
+}
+/* 500 + free workout video */
+.card2{
+    margin-top: -400px;
+    margin-left: 230px;
+    position: absolute;
+    width: 193px;
+    height: 98px;
+}
+.button-2{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    padding: 16px 24px ;
+}
+.number350{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 900;
+    
+}
+.free-workout-video{
+    font-size: 0.875rem;
+    color:rgba(239, 237, 232, 0.65)
+}
+
+
+/* this is the main section */
+.main-sec-1{
+    margin: 100px 190px 0px 190px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+
+/* --------------------------------------------- */
+
+
+/* this is the main container */
+
+
+/* change your habit section  */
+.habit-container{
+    display: flex;
+    justify-items: center;
+    /* justify-content: space-between; */
+    gap:40px;
+}
+.header-habit{
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 30px 0px 6px 0px;
+}
+.content{
+    max-height: 271px;
+    max-width: 314px;
+    /* border: 1px solid red; */
+}
+.images{
+    border-radius: 100%;
+    padding: 0px 14px;
+}
+
+/* this is the run and extra mile ealily container  */
+.run-container{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin: 100px 190px 0px 190px;
+    display: flex;
+    padding: 41px 32px 29px 54px;
+    justify-content: space-between;
+    
+}
+.image-run{
+    height: 310px;
+    width: 366px;
+    object-fit: cover;
+    object-position:100%;
+    border-radius: 18px;
+}
+.image-run2{
+    display: none;
+}
+.extra-mile{
+    max-width: 443px;
+}
+.p-margin{
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+
+
+
+/* meet our team container  */
+.meet-container{
+    text-align: center;
+    margin: 88px 20px 60px 20px;
+}
+.main-container{
+    display: grid;
+    grid-template-rows: 3, 1fr;
+}
+
+@media screen and (max-width:576px) {
+    .get-body-container {
+        flex-direction: column;
+    }
+    .get-body-container{
+        margin: 20px;
+    }
+    .navbar{
+        margin-left: 20px;
+        padding: 0px;
+    }
+    .nav{
+        display: none;
+    }
+    .fitness{
+        margin: 52px 20px 30px 0px;
+    }
+    .heading{
+        font-size: 2.25rem;
+        margin: 0px;
+    }
+    .join-button .download-button{
+        font-size:1.125rem ;
+    }
+    .social-button{
+        position: relative;
+        align-items: center;
+        /* border: 1px solid red; */
+        max-width: 352px;
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+    }
+    .join-button{
+        visibility: hidden;
+    }
+    .join-button::after{
+        content: 'Join Now!';
+        visibility: visible;
+        display: block;
+        position: absolute;
+        padding: 16px 35px; 
+        background-color: #E6533c;
+        margin-top: -40px;
+        /* margin-right: -200px; */
+        margin-left: -50px;
+        /* border: 1px solid red; */
+        border-radius: 45px;
+    }
+    .download-button{
+        visibility: hidden;
+    }
+    .download-button::after{
+        content: "Download App";
+        visibility: visible;
+        display: block;
+        position: absolute;
+        padding: 16px 35px;
+        background-color: #000000;
+        border: 1px solid #ffffff;
+        margin-top: -40px;
+        margin-left: -70px;
+        /* margin-left: 0px; */
+        /* border: 1px solid red; */
+        border-radius: 45px;
+
+    }
+    .card1{
+        position: absolute;
+        margin-top: -150px;
+        margin-left: 10px;
+        max-width: 155px;
+    }
+    .card2{
+        margin-top: -400px;
+        margin-left: 175px;
+        position: absolute;
+        width: 193px;
+        height: 98px;
+    }
+    .font-30{
+      font-size: 1.875rem;
+      max-width: 145px;
+    }
+    .font-10{
+        font-size: 0.75rem;
+    }
+    .font-18-media{
+        font-size: 1.125rem;
+    }
+    .button-1{
+        max-width: 155px;
+        padding: 15px 17px;
+    }
+    .dot{
+        background-color: #E6533c;
+        height: 30px;
+        width: 30px;
+        border-radius: 50px;
+    }
+
+
+    /* ------------------------------------------- */
+
+/* this is the main container */
+/* this is the habit section  */
+    .main-sec-1{
+        margin: 20px;
+    }
+    .font-32{
+        font-size: 2rem;
+        margin-bottom: 14px;
+    }
+    .habit-container{
+        flex-direction: column;
+    }
+    .run-container{
+        flex-direction: column;
+        margin: 20px;
+        padding: 20px;
+        max-width: 350px;
+    }
+    .image-run{
+        display: none;
+    }
+    .image-run2{
+        width: 100%;
+        border-radius: 18px;
+        display: block;
+        width: 280px;
+        height: 170px;
+        object-fit: cover;
+        position: 25% center;
+        margin-top: 30px;
+        margin: 0 auto;
+    }
+    .join-buttonn{
+        padding:16px 100px; 
+        position: relative;
+        margin-bottom: 30px;
+    }
+    #the-btn{   
+        text-align: center;
+    }
+}
