@@ -225,6 +225,7 @@ nav ul li a{
 .habit-container{
     display: flex;
     justify-items: center;
+   
     /* justify-content: space-between; */
     gap:40px;
 }
@@ -456,6 +457,7 @@ nav ul li a{
     }
     .habit-container{
         flex-direction: column;
+        align-items: center;
     }
     .run-container{
         flex-direction: column;
@@ -489,11 +491,12 @@ nav ul li a{
     /* meet our team container  */
     .image-cont{
         grid-template-columns: repeat(1, 1fr);
+        text-align: center  ;
     }
     .main-container{
         padding: 10px;
         width: 330px;
-        margin: 20px;
+        margin: 0 auto;
     }
     .image-6{
         height: 272px;
