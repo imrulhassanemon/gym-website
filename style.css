@@ -303,42 +303,36 @@ nav ul li a{
     width: 326px;
     object-fit: cover;
     border-radius:18px;
-    /* position: relative; */
 }
 .image-1{
     height: 272px;
     width: 326px;
     object-fit: cover;
     border-radius:18px;
-    /* position: relative;   */
 }
 .image-2{
     height: 272px;
     width: 326px;
     object-fit: cover;
     border-radius:18px;
-    /* position: relative;   */
 }
 .image-3{
     height: 272px;
     width: 326px;
     object-fit: cover;
     border-radius:18px;
-    /* position: relative; */
 }
 .image-4{
     height: 272px;
     width: 326px;
     object-fit: cover;
     border-radius:18px;
-    /* position: relative; */
 }
 .image-5{
     height: 272px;
     width: 326px;
     object-fit: cover;
     border-radius:18px;
-    /* position: relative; */
 }
 .para--{
     position: absolute;
@@ -491,4 +485,51 @@ nav ul li a{
     #the-btn{   
         text-align: center;
     }
+
+    /* meet our team container  */
+    .image-cont{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-container{
+        padding: 10px;
+        width: 330px;
+        margin: 20px;
+    }
+    .image-6{
+        height: 272px;
+        width: 310px;
+        object-fit: cover;
+        border-radius:18px;
+    }
+    .image-1{
+        height: 272px;
+        width: 310px;
+        object-fit: cover;
+        border-radius:18px;
+    }
+    .image-2{
+        height: 272px;
+        width: 310px;
+        object-fit: cover;
+        border-radius:18px;
+    }
+    .image-3{
+        height: 272px;
+        width: 326px;
+        object-fit: cover;
+        border-radius:18px;
+    }
+    .image-4{
+        height: 272px;
+        width: 310px;
+        object-fit: cover;
+        border-radius:18px;
+    }
+    .image-5{
+        height: 272px;
+        width: 310px;
+        object-fit: cover;
+        border-radius:18px;
+    }
+
 }
