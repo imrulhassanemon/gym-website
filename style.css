@@ -362,7 +362,7 @@ nav ul li a{
         flex-direction: column;
     }
     .get-body-container{
-        margin: 20px;
+        margin: 0px;
         position: relative;
     }
     .navbar{
@@ -373,7 +373,7 @@ nav ul li a{
         display: none;
     }
     .fitness{
-        margin: 52px 20px 20px 20px;
+        margin: 52px 20px 20px 0px;
     }
     .heading{
         font-size: 2.25rem;
@@ -387,8 +387,8 @@ nav ul li a{
         align-items: center;
         /* border: 1px solid red; */
         max-width: 352px;
-        display: flex;
-        justify-content: space-between;
+        /* display: flex;
+        justify-content: space-between; */
         /* border: 1px solid red; */
     }
     .join-button{
@@ -403,12 +403,17 @@ nav ul li a{
         background-color: #E6533c;
         margin-top: -40px;
         /* margin-right: -200px; */
-        margin-left: -50px;
+        margin-left: -30px;
         /* border: 1px solid red; */
         border-radius: 45px;
     }
     .download-button{
         visibility: hidden;
+        /* overflow: hidden; */
+        /* display: hide; */
+        margin-right: -220px;
+        position: absolute;
+        padding: 0px;
     }
     .download-button::after{
         content: "Download App";
@@ -417,11 +422,13 @@ nav ul li a{
         padding: 10px 30px;
         background-color: #000000;
         border: 1px solid #ffffff;
-        margin-top: -56px;
-        margin-left: -100px;
+        margin-top: -40px;
+        margin-left: -65px;
         /* margin-left: 0px; */
         /* border: 1px solid red; */
         border-radius: 45px;
+        overflow: hidden;
+        position: absolute;
 
     }
     .card1{
@@ -432,7 +439,7 @@ nav ul li a{
     }
     .card2{
         margin-top: -400px;
-        margin-left: 175px;
+        margin-left: 150px;
         position: absolute;
         width: 193px;
         height: 98px;
@@ -456,6 +463,10 @@ nav ul li a{
         height: 30px;
         width: 30px;
         border-radius: 50px;
+    }
+    .head-width{
+        width: 350px;
+        margin: 20px;
     }
 
 
@@ -557,6 +568,9 @@ nav ul li a{
     .hide{
         display: none;
     }
-
+    .image-container{
+        width: 350px;
+        margin: 0 auto;
+    }
 
 }
