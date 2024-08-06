@@ -30,6 +30,23 @@
     font-size: 1rem;
     color: white;
 }
+.font-28{
+    font-size: 1.75rem;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 52px;
+}
+.font-28-{
+    font-size: 1.75rem;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 52px;
+}
+.font-16---{
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+}
 .font-40{
     color: white;
     font-size: 2.5rem ;
@@ -286,6 +303,61 @@ nav ul li a{
     margin-bottom: 34px;
 }
 
+/* this is the bmi calculator  */
+
+.bmi-div1{
+    text-align: center;
+    margin: 100px;
+}
+.bmi-div2{
+    background-color: rgb(34, 34, 34);
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 70px 15px 20px;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    opacity: 1;
+    /* background: rgba(255, 255, 255, 0.1); */
+    border: none;
+    padding: 2px;
+}
+input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 15px 0px 15px 20px;
+}
+
+::-ms-input-placeholder{
+    padding: 20px;
+}
+.main-calculator{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.margin-calculate{
+    background-color: #E6533c;
+    border: none;
+    padding: 15px 70px;
+    border-radius:42px;
+    margin: 35px 0 50px 0px;
+}
+
+
+
+/* ------------------------------------------------------------------------------ */
 
 
 /* meet our team container  */
