@@ -463,18 +463,6 @@ input{
     grid-column: span 2;
 }
 
-.copyright{
-    font-size: 0.875rem;
-    color: #FFFFFF80;
-    text-align: center;
-    padding: 40px;
-}
-.line{
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    width: 1060px;
-    height: 0px;
-    margin: 0 auto;
-}
 
 /* _______________________________________________________________________________________________________________ */
 
@@ -487,6 +475,19 @@ input{
 }
 .div-1{
     max-width: 440px;
+}
+.copyright{
+    font-size: 1.75rem;
+    color: #FFFFFF80;
+    text-align: center;
+    padding: 30px;
+    font-weight: 400;
+}
+.line{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 1060px;
+    height: 0px;
+    margin: 0 auto;
 }
 
 
@@ -758,5 +759,17 @@ input{
     .margin-calculate{
        margin-left: 20px;
     }
-    
+
+    /* ______________________________________________________________________________________________ */
+    /* this is for footer responsive  */
+    .footer-section{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .line{
+        max-width: 350px;
+    }
+    .copyright{
+        font-size: 1rem;
+    }
 }
