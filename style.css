@@ -330,12 +330,14 @@ td{
     /* background: rgba(255, 255, 255, 0.1); */
     border: none;
     padding: 2px;
+
 }
 input{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     border: none;
     padding: 15px 0px 15px 20px;
+    /* width: 50px; */
 }
 
 ::-ms-input-placeholder{
@@ -344,7 +346,7 @@ input{
 .main-calculator{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 12px;
 }
 
 .margin-calculate{
@@ -427,10 +429,12 @@ input{
     margin-left: 50px;
     margin-top: -50px;
 }
-
+#select-an-activity{
+    grid-column: span 2;
+}
 
 @media screen and (max-width:576px) {
-    .get-body-container {
+    .get-body-container, .bmi-div2 {
         flex-direction: column;
     }
     .get-body-container{
@@ -644,5 +648,57 @@ input{
         width: 350px;
         margin: 0 auto;
     }
+    /* ----------------------------------------------------------------------------------- */
+    /* this is the bmi calculator section  */
+    .bmi-div1{
+        margin: 40px 20px;
+        text-align: left;
+    }
+    .bmi-div2{
+        margin: 0px;
+        margin: 0 auto;
+        
+        padding: 0px;
+    }
+    table{
+        /* max-width: 310px; */
+        margin: 0 auto;
+    }
+    td{
+        padding: 10px;
+    }
+    .bmi-cal-h1{
+        font-size: 1rem;
+        font-weight: 900;
+        text-align: center;
+        margin: 30px auto 20px auto;
+    }
+    input{
+        width: 150px;
+        margin: 0 auto;
+        /* padding: 20px; */
+    }
 
+
+    #select-an-activity{
+        /* grid-column: span 2; */
+        width: 345px;
+    }
+    .main-calculator{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+    }
+    .para-bmi{
+        margin-bottom: 30px;
+        padding: 0px 20px 0 20px;
+    }
+    .calculate-h1{
+        margin: 40px 0px 14px 20px;
+    }
+    .margin-calculate{
+       margin-left: 80px;
+    }
+    
 }
