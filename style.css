@@ -16,6 +16,10 @@
 .background{
     background-repeat: no-repeat;
     background-color: #000000;
+    padding-bottom: 100px;
+}
+.background-{
+    background:rgba(34, 34, 34, 1);
 }
 .font-36{
     font-size: 2.25rem;
@@ -74,6 +78,22 @@
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
     margin: 0px 0px 58px 0px;
+}
+.font-70{
+    font-size: 4.375rem;
+    color: #E6533c;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.font-32{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+.font-23{
+    font-size: 1.438rem;
+    color: #FFFFFF80;
+    margin-top: 10px;
 }
 .text-button{
     text-align: left;
@@ -442,6 +462,23 @@ input{
 #select-an-activity{
     grid-column: span 2;
 }
+
+
+
+/* _______________________________________________________________________________________________________________ */
+
+/* this is the footer section  */
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px   190px 80px 190px;
+}
+.div-1{
+    max-width: 440px;
+}
+
+
 
 @media screen and (max-width:576px) {
     .get-body-container, .bmi-div2 {
