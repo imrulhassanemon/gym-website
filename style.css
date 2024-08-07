@@ -142,6 +142,7 @@ nav ul li a{
 .social-button{
     display: flex;
     gap: 14px;
+    justify-content: left;
 }
 .join-button{
     font-size: 1.125rem;
@@ -698,7 +699,7 @@ input{
         margin: 40px 0px 14px 20px;
     }
     .margin-calculate{
-       margin-left: 80px;
+       margin-left: 20px;
     }
     
 }
