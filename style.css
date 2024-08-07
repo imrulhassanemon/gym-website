@@ -674,7 +674,7 @@ input{
         margin: 30px auto 20px auto;
     }
     input{
-        width: 150px;
+        width: 120px;
         margin: 0 auto;
         /* padding: 20px; */
     }
@@ -682,7 +682,7 @@ input{
 
     #select-an-activity{
         /* grid-column: span 2; */
-        width: 345px;
+        width: 320px;
     }
     .main-calculator{
         display: grid;
