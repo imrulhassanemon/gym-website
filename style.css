@@ -463,7 +463,18 @@ input{
     grid-column: span 2;
 }
 
-
+.copyright{
+    font-size: 0.875rem;
+    color: #FFFFFF80;
+    text-align: center;
+    padding: 40px;
+}
+.line{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 1060px;
+    height: 0px;
+    margin: 0 auto;
+}
 
 /* _______________________________________________________________________________________________________________ */
 
