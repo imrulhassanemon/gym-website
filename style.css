@@ -42,6 +42,12 @@
     font-weight: 900;
     margin-bottom: 52px;
 }
+.font-28--{
+    font-size: 1.75rem;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
 .font-16---{
     font-size: 1rem;
     color: white;
@@ -356,6 +362,9 @@ input{
     padding: 15px 70px;
     border-radius:42px;
     margin: 35px 0 50px 0px;
+}
+.para-bmi{
+    margin-bottom: 30px;
 }
 
 
