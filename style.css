@@ -565,11 +565,13 @@ input{
     height: 0px;
     margin: 0 auto;
 }
-
+.mar{
+    margin-bottom: 50px;
+}
 
 
 @media screen and (max-width:576px) {
-    .get-body-container, .bmi-div2 {
+    .get-body-container, .bmi-div2{
         flex-direction: column;
     }
     .get-body-container{
@@ -688,7 +690,7 @@ input{
     .main-sec-1{
         margin:0 auto;
     }
-    .font-32{
+    .font-32-{
         font-size: 2rem;
         margin-bottom: 14px;
     }
@@ -848,4 +850,12 @@ input{
     .copyright{
         font-size: 1rem;
     }
+    /* ______________________________________________________________________________________________________ */
+    .main-pricing{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+
 }
