@@ -7,6 +7,10 @@
     font-variation-settings:
       "slnt" 0;
 }
+#miama{
+    font-family: 'Miama', sans-serif;
+    font-size: 78px;
+}
 
 *{
     margin: 0px;
