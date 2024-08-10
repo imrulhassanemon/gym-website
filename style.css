@@ -155,7 +155,11 @@ nav ul li a{
     margin: 0px 190px 0 190px;
     padding-top:57px;
 }
-
+.image-ham{
+    position: absolute;
+    margin-bottom: -30px;
+    margin-left:300px ;
+}
 
 /* get body in shape section */
 .head-width{
