@@ -156,9 +156,7 @@ nav ul li a{
     padding-top:57px;
 }
 .image-ham{
-    position: absolute;
-    margin-bottom: -30px;
-    margin-left:300px ;
+    display: none;
 }
 
 /* get body in shape section */
@@ -864,6 +862,11 @@ input{
         align-items: center;
     }
     
-
+    .image-ham{
+    display: inline;
+    position: absolute;
+    margin-bottom: -30px;
+    margin-left:300px ;
+}
 
 }
